@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "deploy": "npm run build && echo resum > dist/CNAME"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
